@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <!-- QUAN LY TUYEN SINH -->
+    <h1>QUAN LY TUYEN SINH</h1>
+    <INPut type="text" placeholder="Nhap diem chuan" id="benchmark"></INPut>
+    <input type="text" placeholder="Nhap diem mon 1" id="num1">
+    <input type="text" placeholder="Nhap diem mon 2" id="num2">
+    <input type="text" placeholder="Nhap diem mon 3" id="num3">
+    <br><br>
+    <p>Chon khu vuc uu tien:</p>
+    <select name="" id="area">
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="X">X</option>
+    </select>
+    <span>(Chon "X" neu khong thuoc khu vuc uu tien)</span>
+    <p>Chon doi tuong uu tien:</p>
+    <select name="" id="type">
+        <option value=1>1</option>
+        <option value=2>2</option>
+        <option value=3>3</option>
+        <option value=0>0</option>
+    </select>
+    <span>(Chon "0" neu khong thuoc doi tuong uu tien)</span>
+    <br><br>
+    <button id="btn1">Tra ket qua</button>
+    <p>Ket qua: <span id="result1"></span></p>
+    <p>Tong diem: <span id="result2"></span></p>
+
+    <!-- TINH TIEN DIEN -->
+    <h1>TINH TIEN DIEN</h1>
+    <input type="text" placeholder="Nhap ten" id="name">
+    <input type="text" placeholder="Nhap so Kw" id="kw">
+    <button id="btn2">Tinh tien</button>
+    <p>So tien dien cua anh/chi <span id="energy_name"></span> la: <span id="energy_total"></span></p>
+
+    <!-- TINH THUE THU NHAP CA NHAN -->
+    <H1>THUE THU NHAP CA NHAN </H1>
+    <input type="text" placeholder="Nhap ho ten">
+    <br><br>
+    <input type="text" placeholder="Nhap tong thu nhap" id="income">
+    <span>(trieu vnd)</span>
+    <br><br>
+    <input type="text" placeholder="Nhap so nguoi phu thuoc" id="people">
+    <span>(nguoi)</span>
+    <br><br>
+    <button id="btn3">Tinh thue</button>
+    <p>So tien thue la: <span id="total_tax"></span><span> (trieu vnd)</span></p>
+
+    <!-- TINH TIEN CAP -->
+    <h1>TINH TIEN CAP</h1>
+    <input type="text" placeholder="Nhap ma khach hang">
+    <br><br>
+    <span>Chon loai khach hang:</span>
+    <select id="type1" >
+        <option value="domestic">Nha dan</option>
+        <option value="business" >Doanh nghiep</option>
+    </select>
+    <br><br>
+    <input type="text" placeholder="Nhap so ket noi" id="connection" style="display: none">
+    <br>
+    <input type="text" placeholder="Nhap so kenh cao cap" id="channel"> 
+    <br><br>
+    <button id="btn">Tinh tien</button>
+    <p>So tien cap cua quy khach la: <span id="total_cable"></span></p>
+
+    <script src="./index.js"></script>
+</body>
+</html>
